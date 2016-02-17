@@ -26,7 +26,7 @@ engines:
 
 
     debug_logging: true
-    location: {path: https://github.com/shotgunsoftware/tk-rv.git, type: git, version: 34752_refactor_cleanup}
+    location: {path: https://github.com/shotgunsoftware/tk-rv.git, type: git, branch: 34752_refactor_cleanup}
 
 # note! The login framework is included for backwards compatibility with 
 # some apps that are running in desktop, so although it is not strictly
