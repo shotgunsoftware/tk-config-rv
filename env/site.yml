@@ -1,0 +1,44 @@
+# Copyright (c) 2013 Shotgun Software Inc.
+#
+# CONFIDENTIAL AND PROPRIETARY
+#
+# This work is provided "AS IS" and subject to the Shotgun Pipeline Toolkit
+# Source Code License included in this distribution package. See LICENSE.
+# By accessing, using, copying or modifying this work you indicate your
+# agreement to the Shotgun Pipeline Toolkit Source Code License. All rights
+# not expressly granted therein are reserved by Shotgun Software Inc.
+#
+
+description: Apps and Engines when toolkit is run from outside a project.
+
+#################################################################################################
+# define all the items that should appear in this environment
+# By default make the non-project side of the desktop engine available
+
+engines:
+  tk-rv:
+    apps:
+      tk-multi-about:
+        location:
+          name: tk-multi-about
+          type: app_store
+          version: v0.2.0
+
+
+    debug_logging: true
+    location: {path: https://github.com/shotgunsoftware/tk-rv.git, type: git, version: 34752_refactor_cleanup}
+
+# note! The login framework is included for backwards compatibility with 
+# some apps that are running in desktop, so although it is not strictly
+# required anymore for the desktop system itself to run correctly,
+# we included here to ensure correct overall operation.
+frameworks:
+
+  tk-framework-widget_v0.2.x:
+    location: {name: tk-framework-widget, type: app_store, version: v0.2.3}
+  tk-framework-qtwidgets_v2.x.x:
+    location: {name: tk-framework-qtwidgets, type: app_store, version: v2.2.1}
+  tk-framework-shotgunutils_v2.x.x:
+    location: {name: tk-framework-shotgunutils, type: app_store, version: v2.5.1}
+  tk-framework-shotgunutils_v4.x.x:
+    location: {name: tk-framework-shotgunutils, type: app_store, version: v4.0.4}

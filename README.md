@@ -1,2 +1,4 @@
-# tk-config-rv
-Toolkit config for RV
+tk-config-rv
+======================
+
+Toolkit as a plugin inside RV
