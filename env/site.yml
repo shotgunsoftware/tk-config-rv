@@ -38,6 +38,8 @@ frameworks:
     location: {name: tk-framework-widget, type: app_store, version: v0.2.3}
   tk-framework-qtwidgets_v2.x.x:
     location: {name: tk-framework-qtwidgets, type: app_store, version: v2.2.1}
+  tk-framework-qtwidgets_v1.x.x:
+    location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.3}
   tk-framework-shotgunutils_v2.x.x:
     location: {name: tk-framework-shotgunutils, type: app_store, version: v2.5.1}
   tk-framework-shotgunutils_v4.x.x:
