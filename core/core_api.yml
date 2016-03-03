@@ -1,6 +1,6 @@
 
 location:
-  branch: 34186_plugin_spike
+  branch: develop/0.18
   type: git_branch
   version: latest
   path: git@github.com:shotgunsoftware/tk-core.git
