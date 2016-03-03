@@ -23,14 +23,21 @@ engines:
           name: tk-multi-about
           type: app_store
           version: v0.2.0
+      tk-rv-shotgunreview:
+        location:
+          type: dev
+          path: d:\repositories\tk-rv-shotgunreview
 
 
-    debug_logging: true
+    debug_logging: false
     location:
-      path: 'git@github.com:shotgunsoftware/tk-rv.git'
-      type: git_branch
-      branch: 34702_bootstrap_prototype
-      version: latest
+      type: dev
+      path: d:\repositories\tk-rv
+      name: tk-rv
+      # path: 'git@github.com:shotgunsoftware/tk-rv.git'
+      # type: git_branch
+      # branch: 34702_bootstrap_prototype
+      # version: latest
 
 # note! The login framework is included for backwards compatibility with 
 # some apps that are running in desktop, so although it is not strictly
@@ -41,10 +48,10 @@ frameworks:
   tk-framework-widget_v0.2.x:
     location: {name: tk-framework-widget, type: app_store, version: v0.2.3}
   tk-framework-qtwidgets_v2.x.x:
-    location: {name: tk-framework-qtwidgets, type: app_store, version: v2.2.1}
+    location: {name: tk-framework-qtwidgets, type: dev, path: d:\repositories\tk-framework-qtwidgets}
   tk-framework-qtwidgets_v1.x.x:
-    location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.3}
+    location: {name: tk-framework-qtwidgets, type: dev, path: d:\repositories\tk-framework-qtwidgets}
   tk-framework-shotgunutils_v2.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v2.5.1}
+    location: {name: tk-framework-shotgunutils, type: dev, path: d:\repositories\tk-framework-shotgunutils}
   tk-framework-shotgunutils_v4.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v4.0.4}
+    location: {name: tk-framework-shotgunutils, type: dev, path: d:\repositories\tk-framework-shotgunutils}
