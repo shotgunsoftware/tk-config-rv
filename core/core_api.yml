@@ -1,7 +1,5 @@
 
 location:
-  # type: dev
-  # path: d:\repositories\tk-core
   branch: develop/0.18
   type: git_branch
   version: latest
