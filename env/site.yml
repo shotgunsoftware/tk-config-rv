@@ -23,13 +23,48 @@ engines:
           name: tk-multi-about
           type: app_store
           version: v0.2.0
-
-
-    debug_logging: true
+      tk-rv-shotgunreview:
+        location:
+          # type: dev
+          # path: d:\repositories\tk-rv-shotgunreview
+          # name: tk-rv-shotgunreview
+          path: 'git@github.com:shotgunsoftware/tk-rv-shotgunreview.git'
+          type: git_branch
+          branch: 34904_bootstrap
+          version: latest
+      tk-multi-importcut:
+          cut_link_field: sg_entity
+          default_head_in: 1001
+          default_head_in_duration: 8
+          default_tail_out_duration: 8
+          display_name: Cut Import
+          ensure_sg_setup_hook: '{self}/post_install.py'
+          location:
+            # name: tk-multi-importcut
+            # type: app_store
+            # version: v1.3.0
+            path: 'git@github.com:shotgunsoftware/tk-multi-importcut.git'
+            type: git_branch
+            branch: 34904_rv_bootstrap
+            version: latest
+            # type: dev
+            # path: d:\repositories\tk-multi-importcut
+          omit_statuses: [inac, hld, omt]
+          reinstate_status: ip
+          report_to_group: Editorial
+          sg_cut_item_entity: CutItem
+          use_smart_fields: true
+          timecode_frame_mapping:
+              timecode: "automatic"
+              frame: 1001
+    debug_logging: false
     location:
+      # type: dev
+      # path: d:\repositories\tk-rv
+      name: tk-rv
       path: 'git@github.com:shotgunsoftware/tk-rv.git'
       type: git_branch
-      branch: 34702_bootstrap_prototype
+      branch: 34904_bootstrap_sgtk
       version: latest
 
 # note! The login framework is included for backwards compatibility with 
@@ -41,10 +76,90 @@ frameworks:
   tk-framework-widget_v0.2.x:
     location: {name: tk-framework-widget, type: app_store, version: v0.2.3}
   tk-framework-qtwidgets_v2.x.x:
-    location: {name: tk-framework-qtwidgets, type: app_store, version: v2.2.1}
+    location:
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
+      branch: 34751_rv_shotgunreview
+      version: latest
   tk-framework-qtwidgets_v1.x.x:
-    location: {name: tk-framework-qtwidgets, type: app_store, version: v1.0.3}
+    location:
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
+      branch: 34751_rv_shotgunreview
+      version: latest
   tk-framework-shotgunutils_v2.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v2.5.1}
+    location:
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
+      branch: 34904_sgtk_plugin
+      version: latest
   tk-framework-shotgunutils_v4.x.x:
-    location: {name: tk-framework-shotgunutils, type: app_store, version: v4.0.4}
+    location:
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
+      branch: 34904_sgtk_plugin
+      version: latest
+  tk-framework-pi_v0.x.x:
+    location: {name: tk-framework-pi, type: app_store, version: v0.0.1}
+  tk-framework-editorial_v1.x.x:
+    location: {name: tk-framework-editorial, type: app_store, version: v1.2.1}
+  tk-framework-wb_v3.x.x:
+    location: {name: tk-framework-wb, type: app_store, version: v3.4.0}
+  tk-framework-studio_v1.x.x:
+    location: {name: tk-framework-studio, type: app_store, version: v1.2.5}
+  tk-framework-transcoding_v1.x.x:
+    location: {name: tk-framework-transcoding, type: app_store, version: v1.3.0}
+  tk-framework-delivery_v1.x.x:
+    delivery_formats:
+    - display_name: Images
+      exclusive: true
+      extensions: [exr, dpx, tif, tiff, jpg, jpeg, png, tga, pdf]
+      name: image
+      tank_type: '{EXTENSION}'
+      type: image
+    - display_name: Mov
+      exclusive: true
+      extensions: [mov, mp4, mpeg, avi]
+      name: movie
+      tank_type: '{EXTENSION}'
+      type: movie
+    - display_name: Ed
+      exclusive: false
+      extensions: [edit]
+      name: editorial
+      tank_type: DNXHD
+      type: movie
+    - display_name: ???
+      exclusive: false
+      extensions: []
+      name: other
+      tank_type: '{EXTENSION}'
+      type: other
+    location: {name: tk-framework-delivery, type: app_store, version: v1.2.2}
+  tk-framework-delivery_v2.x.x:
+    delivery_formats:
+    - display_name: Images
+      exclusive: true
+      extensions: [exr, dpx, tif, tiff, jpg, jpeg, png, tga, pdf]
+      name: image
+      tank_type: '{EXTENSION}'
+      type: image
+    - display_name: Mov
+      exclusive: true
+      extensions: [mov, mp4, mpeg, avi]
+      name: movie
+      tank_type: '{EXTENSION}'
+      type: movie
+    - display_name: Ed
+      exclusive: false
+      extensions: [edit]
+      name: editorial
+      tank_type: DNXHD
+      type: movie
+    - display_name: ???
+      exclusive: false
+      extensions: []
+      name: other
+      tank_type: '{EXTENSION}'
+      type: other
+    location: {name: tk-framework-delivery, type: app_store, version: v2.1.2}
