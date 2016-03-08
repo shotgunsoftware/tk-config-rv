@@ -76,13 +76,33 @@ frameworks:
   tk-framework-widget_v0.2.x:
     location: {name: tk-framework-widget, type: app_store, version: v0.2.3}
   tk-framework-qtwidgets_v2.x.x:
-    location: {name: tk-framework-qtwidgets, type: dev, path: 'd:\repositories\tk-framework-qtwidgets'}
+    location:
+      name: tk-framework-qtwidgets
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
+      branch: 'master'
+      version: 'latest'
   tk-framework-qtwidgets_v1.x.x:
-    location: {name: tk-framework-qtwidgets, type: dev, path: 'd:\repositories\tk-framework-qtwidgets'}
+    location:
+      name: tk-framework-qtwidgets
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
+      branch: 'master'
+      version: 'latest'
   tk-framework-shotgunutils_v2.x.x:
-    location: {name: tk-framework-shotgunutils, type: dev, path: 'd:\repositories\tk-framework-shotgunutils'}
+    location:
+      name: tk-framework-shotgunutils
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
+      branch: '34904_sgtk_plugin'
+      version: 'latest'
   tk-framework-shotgunutils_v4.x.x:
-    location: {name: tk-framework-shotgunutils, type: dev, path: 'd:\repositories\tk-framework-shotgunutils'}
+    location:
+      name: tk-framework-shotgunutils
+      type: git_branch
+      path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
+      branch: '34904_sgtk_plugin'
+      version: 'latest'
   tk-framework-pi_v0.x.x:
     location: {name: tk-framework-pi, type: app_store, version: v0.0.1}
   tk-framework-editorial_v1.x.x:
