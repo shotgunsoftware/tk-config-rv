@@ -27,7 +27,7 @@ engines:
         location:
           # type: dev
           # path: d:\repositories\tk-rv-shotgunreview
-          name: tk-rv-shotgunreview
+          # name: tk-rv-shotgunreview
           path: 'git@github.com:shotgunsoftware/tk-rv-shotgunreview.git'
           type: git_branch
           branch: 34904_bootstrap
@@ -40,7 +40,7 @@ engines:
           display_name: Cut Import
           ensure_sg_setup_hook: '{self}/post_install.py'
           location:
-            name: tk-multi-importcut
+            # name: tk-multi-importcut
             # type: app_store
             # version: v1.3.0
             path: 'git@github.com:shotgunsoftware/tk-multi-importcut.git'
