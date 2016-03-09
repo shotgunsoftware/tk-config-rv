@@ -91,13 +91,13 @@ frameworks:
     location:
       type: git_branch
       path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
-      branch: 34904_sgtk_plugin
+      branch: master
       version: latest
   tk-framework-shotgunutils_v4.x.x:
     location:
       type: git_branch
       path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
-      branch: 34904_sgtk_plugin
+      branch: master
       version: latest
   tk-framework-pi_v0.x.x:
     location: {name: tk-framework-pi, type: app_store, version: v0.0.1}
