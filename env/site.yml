@@ -30,7 +30,7 @@ engines:
           # name: tk-rv-shotgunreview
           path: 'git@github.com:shotgunsoftware/tk-rv-shotgunreview.git'
           type: git_branch
-          branch: 34904_bootstrap
+          branch: master
           version: latest
       tk-multi-importcut:
           cut_link_field: sg_entity
