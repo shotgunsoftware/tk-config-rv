@@ -46,7 +46,7 @@ engines:
             path: 'git@github.com:shotgunsoftware/tk-multi-importcut.git'
             type: git_branch
             branch: 34904_rv_bootstrap
-            version: latest
+            version: c3257622294cd2d4b63075830a37ba07265c189f
             # type: dev
             # path: d:\repositories\tk-multi-importcut
           omit_statuses: [inac, hld, omt]
