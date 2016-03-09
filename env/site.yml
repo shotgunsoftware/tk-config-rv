@@ -64,7 +64,7 @@ engines:
       name: tk-rv
       path: 'git@github.com:shotgunsoftware/tk-rv.git'
       type: git_branch
-      branch: 34904_bootstrap_sgtk
+      branch: master
       version: latest
 
 # note! The login framework is included for backwards compatibility with 
