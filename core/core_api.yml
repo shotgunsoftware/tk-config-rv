@@ -1,6 +1,9 @@
 
 location:
+  # type: dev
+  # path: d:\repositories\tk-core
   branch: develop/0.18
   type: git_branch
-  version: latest
+  # version: latest
+  version: ccdcb942468f3dbf1143a6a5748d406f4f180e8b
   path: git@github.com:shotgunsoftware/tk-core.git
