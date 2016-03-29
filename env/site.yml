@@ -32,7 +32,7 @@ engines:
           type: git_branch
           branch: master
           # version: latest
-          version: e9901720735d11ddba3093d58e1fcbc1bac46df6
+          version: bf47fe6605b004926ad1de54a118a6d3d6c4b5da
       tk-multi-importcut:
           cut_link_field: sg_entity
           default_head_in: 1001
@@ -67,7 +67,7 @@ engines:
       type: git_branch
       branch: master
       # version: latest
-      version: 4f8dd6bf6f5f4b457b380035493eec9895b09593
+      version: c2215a879ec41dad5e2c2aa6e787821b98c39cc6
 
 
 frameworks:
@@ -77,14 +77,14 @@ frameworks:
       path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
       branch: 34751_rv_shotgunreview
       # version: latest
-      version: 5ec5944499a1ad409a3e5b99e18ed2accb46f1cd
+      version: a3824848b7047cd176b739f86ac1fb49685a7002
   tk-framework-shotgunutils_v4.x.x:
     location:
       type: git_branch
       path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
       branch: master
       # version: latest
-      version: 353867bedd36619e9034f7188de4f716f3ee9fab
+      version: a84442d8d6e84030a22545fd59824341b9a14e2b
   tk-framework-editorial_v1.x.x:
     location: {name: tk-framework-editorial, type: app_store, version: v1.2.1}
 
