@@ -18,11 +18,6 @@ description: Apps and Engines when toolkit is run from outside a project.
 engines:
   tk-rv:
     apps:
-      tk-multi-about:
-        location:
-          name: tk-multi-about
-          type: app_store
-          version: v0.2.0
       tk-rv-shotgunreview:
         location:
           # type: dev
