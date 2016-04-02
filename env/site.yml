@@ -41,8 +41,8 @@ engines:
             # version: v1.3.0
             path: 'git@github.com:shotgunsoftware/tk-multi-importcut.git'
             type: git_branch
-            branch: nab_features_2016
-            version: 3814baf7075b386fedaaa748d1cf1a21b5649fa8
+            branch: master
+            version: d087806106b9d0a2c530dcc944fdf4873fb1ed26
             # type: dev
             # path: d:\repositories\tk-multi-importcut
           omit_statuses: [inac, hld, omt]
@@ -62,7 +62,7 @@ engines:
       type: git_branch
       branch: master
       # version: latest
-      version: c2215a879ec41dad5e2c2aa6e787821b98c39cc6
+      version: 26d94cc1f4c3a6ade17ad987dd33bc731d28e9d6
 
 
 frameworks:
