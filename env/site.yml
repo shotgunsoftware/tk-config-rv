@@ -27,7 +27,7 @@ engines:
           type: git_branch
           branch: master
           # version: latest
-          version: bf47fe6605b004926ad1de54a118a6d3d6c4b5da
+          version: a8dba9a4a1514c1b7173c67418ee567b4ce2adb9
       tk-multi-importcut:
           cut_link_field: sg_entity
           default_head_in: 1001
@@ -72,7 +72,7 @@ frameworks:
       path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
       branch: 34751_rv_shotgunreview
       # version: latest
-      version: a3824848b7047cd176b739f86ac1fb49685a7002
+      version: 1c4950b4a699acd33b292bb0d7236ec8ee3a81ea
   tk-framework-shotgunutils_v4.x.x:
     location:
       type: git_branch
