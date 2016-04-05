@@ -18,6 +18,11 @@ description: Apps and Engines when toolkit is run from outside a project.
 engines:
   tk-rv:
     apps:
+      tk-multi-pythonconsole:
+        location:
+          type: git
+          path: https://github.com/josh-t/tk-multi-pythonconsole.git
+          version: v1.0.2
       tk-rv-shotgunreview:
         location:
           # type: dev
