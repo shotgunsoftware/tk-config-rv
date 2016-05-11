@@ -37,7 +37,7 @@ engines:
           default_head_in: 1001
           default_head_in_duration: 8
           default_tail_out_duration: 8
-          display_name: Cut Import
+          display_name: Import Cut
           ensure_sg_setup_hook: '{self}/post_install.py'
           location:
             # name: tk-multi-importcut
@@ -57,6 +57,11 @@ engines:
           timecode_frame_mapping:
               timecode: "automatic"
               frame: 1001
+    menu_overrides:
+      SG Review:
+        - {app_instance: tk-multi-importcut, name: Import Cut}
+      Tools:
+        - {app_instance: tk-multi-pythonconsole, name: Shotgun Python Console...}
     debug_logging: false
     location:
       # type: dev
