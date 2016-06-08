@@ -19,6 +19,7 @@ engines:
   tk-rv:
     apps:
       tk-multi-pythonconsole:
+        external_sources_hook: '{self}/external_sources.py'
         location:
           type: git
           path: https://github.com/josh-t/tk-multi-pythonconsole.git
