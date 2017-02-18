@@ -21,18 +21,14 @@ engines:
       tk-multi-pythonconsole:
         external_sources_hook: '{self}/external_sources.py'
         location:
-          type: git
-          path: https://github.com/josh-t/tk-multi-pythonconsole.git
-          version: v1.0.2
+          name: tk-multi-pythonconsole
+          type: manual
+          version: v1.0.42
       tk-rv-shotgunreview:
         location:
-          # type: dev
-          # path: d:\repositories\tk-rv-shotgunreview
-          # name: tk-rv-shotgunreview
-          path: 'git@github.com:shotgunsoftware/tk-rv-shotgunreview.git'
-          type: git_branch
-          branch: master
-          version: f37e8e3ddf971f2fcd5fd90d991be532e08d4502
+          name: tk-rv-shotgunreview
+          type: manual
+          version: v1.0.42
       tk-multi-importcut:
           cut_link_field: sg_entity
           default_head_in: 1001
@@ -41,15 +37,9 @@ engines:
           display_name: Import Cut
           ensure_sg_setup_hook: '{self}/post_install.py'
           location:
-            # name: tk-multi-importcut
-            # type: app_store
-            # version: v1.3.0
-            path: 'git@github.com:shotgunsoftware/tk-multi-importcut.git'
-            type: git_branch
-            branch: master
-            version: d087806106b9d0a2c530dcc944fdf4873fb1ed26
-            # type: dev
-            # path: d:\repositories\tk-multi-importcut
+            name: tk-multi-importcut
+            type: manual
+            version: v1.0.42
           omit_statuses: [inac, hld, omt]
           reinstate_status: ip
           report_to_group: Editorial
@@ -65,28 +55,24 @@ engines:
         - {app_instance: tk-multi-pythonconsole, name: Shotgun Python Console...}
     debug_logging: false
     location:
-      # type: dev
-      # path: d:\repositories\tk-rv
       name: tk-rv
-      path: 'git@github.com:shotgunsoftware/tk-rv.git'
-      type: git_branch
-      branch: master
-      version: 26d94cc1f4c3a6ade17ad987dd33bc731d28e9d6
-
+      type: manual
+      version: v1.0.42
 
 frameworks:
   tk-framework-qtwidgets_v2.x.x:
     location:
-      type: git_branch
-      path: git@github.com:shotgunsoftware/tk-framework-qtwidgets.git
-      branch: 34751_rv_shotgunreview
-      version: 9bdc5a7fab0b9d6afd7c88768f4b3ddef6379bc2
+      name: tk-framework-qtwidgets
+      type: manual
+      version: v1.0.42
   tk-framework-shotgunutils_v4.x.x:
     location:
-      type: git_branch
-      path: git@github.com:shotgunsoftware/tk-framework-shotgunutils.git
-      branch: master
-      version: a84442d8d6e84030a22545fd59824341b9a14e2b
+      name: tk-framework-shotgunutils
+      type: manual
+      version: v1.0.42
   tk-framework-editorial_v1.x.x:
-    location: {name: tk-framework-editorial, type: app_store, version: v1.2.1}
+    location: 
+      name: tk-framework-editorial
+      type: manual
+      version: v1.0.42
 
