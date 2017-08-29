@@ -23,12 +23,12 @@ engines:
         location:
           name: tk-multi-pythonconsole
           type: manual
-          version: v1.0.42
+          version: v1.0.43
       tk-rv-shotgunreview:
         location:
           name: tk-rv-shotgunreview
           type: manual
-          version: v1.0.42
+          version: v1.0.43
       tk-multi-importcut:
           cut_link_field: sg_entity
           default_head_in: 1001
@@ -39,7 +39,7 @@ engines:
           location:
             name: tk-multi-importcut
             type: manual
-            version: v1.0.42
+            version: v1.0.43
           omit_statuses: [inac, hld, omt]
           reinstate_status: ip
           report_to_group: Editorial
@@ -57,22 +57,22 @@ engines:
     location:
       name: tk-rv
       type: manual
-      version: v1.0.42
+      version: v1.0.43
 
 frameworks:
   tk-framework-qtwidgets_v2.x.x:
     location:
       name: tk-framework-qtwidgets
       type: manual
-      version: v1.0.42
+      version: v1.0.43
   tk-framework-shotgunutils_v4.x.x:
     location:
       name: tk-framework-shotgunutils
       type: manual
-      version: v1.0.42
+      version: v1.0.43
   tk-framework-editorial_v1.x.x:
     location: 
       name: tk-framework-editorial
       type: manual
-      version: v1.0.42
+      version: v1.0.43
 
