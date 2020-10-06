@@ -1,4 +1,1 @@
-tk-config-rv
-======================
-
-Toolkit as a plugin inside RV
+*This repository is deprecated. If you need to update the Toolkit configuration that comes with RV, visit [this page](https://git.autodesk.com/media-and-entertainment/shotgun-rv/tree/master-rv/src/plugins/rv-packages/sgtk/plugin/tk-config-rv)*
