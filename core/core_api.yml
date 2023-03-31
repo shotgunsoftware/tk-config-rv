@@ -1,5 +1,5 @@
 
 location:
-  type: manual
+  type: app_store
   name: tk-core
-  version: v1.0.43
+  version: v0.20.16
