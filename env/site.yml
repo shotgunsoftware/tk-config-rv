@@ -59,12 +59,12 @@ frameworks:
     location:
       type: app_store
       name: tk-framework-qtwidgets
-      version: v2.10.5
+      version: v2.10.8
   tk-framework-shotgunutils_v5.x.x:  # Used for pythonconsole and importcut
     location:
       name: tk-framework-shotgunutils
       type: app_store
-      version: v5.8.5
+      version: v5.8.6
   tk-framework-editorial_v2.x.x: # Used by importcut
     location:
       type: app_store
