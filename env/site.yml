@@ -64,7 +64,7 @@ frameworks:
     location:
       name: tk-framework-shotgunutils
       type: app_store
-      version: v5.8.6
+      version: v5.8.8
   tk-framework-editorial_v2.x.x: # Used by importcut
     location:
       type: app_store
