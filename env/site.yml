@@ -47,7 +47,7 @@ engines:
       SG Review:
       - {app_instance: tk-multi-importcut, name: Import Cut}
       Tools:
-      - {app_instance: tk-multi-pythonconsole, name: Flow Production Tracking Python Console...}
+      - {app_instance: tk-multi-pythonconsole, name: PTR Python Console...}
     debug_logging: false
     location:
       type: app_store
