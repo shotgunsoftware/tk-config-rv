@@ -21,9 +21,10 @@ engines:
       tk-multi-pythonconsole:
         external_sources_hook: '{self}/external_sources.py'
         location:
-          type: app_store
-          name: tk-multi-pythonconsole
-          version: v1.3.1
+          type: git_branch
+          path: https://github.com/shotgunsoftware/tk-multi-pythonconsole.git
+          branch: ticket/SG-34329-rebranding
+          version: dc3654134436d28b5be84fbfe8b3fc633c77be0d
       tk-multi-importcut:
         cut_link_field: sg_entity
         default_head_in: 1001
@@ -32,9 +33,10 @@ engines:
         display_name: Import Cut
         ensure_sg_setup_hook: '{self}/post_install.py'
         location:
-          type: app_store
-          name: tk-multi-importcut
-          version: v2.4.3
+          type: git_branch
+          path: https://github.com/shotgunsoftware/tk-multi-importcut.git
+          branch: ticket/SG-34324-rebranding
+          version: 36818dbf29c0484fd8637f8fd92e9e5a297850f3
         omit_statuses: [inac, hld, omt]
         reinstate_status: ip
         report_to_group: Editorial
@@ -50,23 +52,27 @@ engines:
       - {app_instance: tk-multi-pythonconsole, name: PTR Python Console...}
     debug_logging: false
     location:
-      type: app_store
-      name: tk-rv
-      version: v1.0.0
+      type: git_branch
+      path: https://github.com/shotgunsoftware/tk-rv.git
+      branch: ticket/SG-34313-rebranding
+      version: 99b817007a022249a04d3e392faf8ba78cbc5fb7
 
 frameworks:
   tk-framework-qtwidgets_v2.x.x: # Used by shotgunreview and importcut
     location:
-      type: app_store
-      name: tk-framework-qtwidgets
-      version: v2.10.12
+      type: git_branch
+      path: https://github.com/shotgunsoftware/tk-framework-qtwidgets.git
+      branch: ticket/SG-34303-rebranding
+      version: 25d6fb4ab99384aed91bcdf7beaffcbc77062680
   tk-framework-shotgunutils_v5.x.x:  # Used for pythonconsole and importcut
     location:
-      name: tk-framework-shotgunutils
-      type: app_store
-      version: v5.8.8
+      type: git_branch
+      path: https://github.com/shotgunsoftware/tk-framework-shotgunutils.git
+      branch: ticket/SG-34304-rebranding
+      version: 1aaf07bb1c660ae3fa9d0a2bf8ca986c5c680242
   tk-framework-editorial_v2.x.x: # Used by importcut
     location:
-      type: app_store
-      name: tk-framework-editorial
-      version: v2.2.2
+      type: git_branch
+      path: https://github.com/shotgunsoftware/tk-framework-editorial.git
+      branch: ticket/SG-34301-rebranding
+      version: 04355d8ac99903d0fec613d5489a821fbf343de0
