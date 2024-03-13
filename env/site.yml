@@ -53,7 +53,7 @@ engines:
       type: git_branch
       path: https://github.com/shotgunsoftware/tk-rv.git
       branch: ticket/SG-34313-rebranding
-      version: 99b817007a022249a04d3e392faf8ba78cbc5fb7
+      version: 34b826de54d6b96119ffdbc4fd51cf26c965c9e9
 
 frameworks:
   tk-framework-qtwidgets_v2.x.x: # Used by shotgunreview and importcut
