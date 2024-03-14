@@ -24,7 +24,7 @@ engines:
           type: git_branch
           path: https://github.com/shotgunsoftware/tk-multi-pythonconsole.git
           branch: ticket/SG-34329-rebranding
-          version: dc3654134436d28b5be84fbfe8b3fc633c77be0d
+          version: 9ccaedbbceffda0bf09c0b52294c221027e0381c
       tk-multi-importcut:
         cut_link_field: sg_entity
         default_head_in: 1001
