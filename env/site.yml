@@ -52,7 +52,7 @@ engines:
     location:
       type: app_store
       name: tk-rv
-      version: v1.0.0
+      version: v1.1.0
 
 frameworks:
   tk-framework-qtwidgets_v2.x.x: # Used by shotgunreview and importcut
