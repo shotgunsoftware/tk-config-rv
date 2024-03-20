@@ -69,4 +69,4 @@ frameworks:
     location:
       type: app_store
       name: tk-framework-editorial
-      version: v2.2.2
+      version: v2.3.0
