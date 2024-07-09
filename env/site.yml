@@ -44,8 +44,10 @@ engines:
           timecode: automatic
           frame: 1001
     menu_overrides:
+      SG Review:
+        - {app_instance: tk-multi-importcut, name: Import Cut}
       Tools:
-      - {app_instance: tk-multi-pythonconsole, name: PTR Python Console...}
+        - {app_instance: tk-multi-pythonconsole, name: PTR Python Console...}
     debug_logging: false
     location:
       type: app_store
