@@ -23,7 +23,7 @@ engines:
         location:
           type: app_store
           name: tk-multi-pythonconsole
-          version: v1.4.1
+          version: v1.4.2
       tk-multi-importcut:
         cut_link_field: sg_entity
         default_head_in: 1001
