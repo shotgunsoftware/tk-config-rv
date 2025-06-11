@@ -45,9 +45,9 @@ engines:
           frame: 1001
     menu_overrides:
       SG Review:
-        - {app_instance: tk-multi-importcut, name: Import Cut}
+      - {app_instance: tk-multi-importcut, name: Import Cut}
       Tools:
-        - {app_instance: tk-multi-pythonconsole, name: PTR Python Console...}
+      - {app_instance: tk-multi-pythonconsole, name: PTR Python Console...}
     debug_logging: false
     location:
       type: app_store
@@ -64,7 +64,7 @@ frameworks:
     location:
       name: tk-framework-shotgunutils
       type: app_store
-      version: v5.10.2
+      version: v5.10.3
   tk-framework-editorial_v2.x.x: # Used by importcut
     location:
       type: app_store
