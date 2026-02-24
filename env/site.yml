@@ -34,7 +34,7 @@ engines:
         location:
           type: app_store
           name: tk-multi-importcut
-          version: v2.5.2
+          version: v2.5.3
         omit_statuses: [inac, hld, omt]
         reinstate_status: ip
         report_to_group: Editorial
